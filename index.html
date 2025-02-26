@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♠Blackjack!♠</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Blackjack</h1>
+
+    <main id="betPage">
+        <section>
+            <img src="images/chip.png">
+            Enter your bet:
+            <input id="bet" type="number" size="8" value="20">
+        </section>
+        <br>
+        <section>
+            Charlie rule?:
+            <input id="charlieRule" type="checkbox" title="Win if you draw 5 cards without a bust">
+        </section>
+        <br>
+        <button id="playGameBtn">Place Bet</button>
+        <br>
+    </main>
+
+    <div id="table">
+
+    </div>
+
+    <div id="message"></div>
+
+    <button id="hitBtn">Hit</button>
+    <button id="standBtn">Stand</button>
+    <button id="playAgainBtn">Play again?</button>
+
+    <div id="chipCounter">
+        <img src="images/chip.png">
+        <div id="chipCount">Chips: </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
